@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <AnchorPane prefHeight="579.0" prefWidth="996.0" />
+      <BorderPane prefHeight="623.0" prefWidth="1094.0">
+         <top>
+            <GridPane alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="353.6666564941406" minWidth="10.0" prefWidth="124.66667175292969" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="757.0" minWidth="10.0" prefWidth="518.3333740234375" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="557.3333129882812" minWidth="10.0" prefWidth="356.6666259765625" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="42.44444274902344" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ARNGREN" textAlignment="CENTER" wrappingWidth="215.19403076171875" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="43.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="62.0" fitWidth="65.0" nodeOrientation="INHERIT" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <image>
+                        <Image url="@../../../../../../../../Cutout_2.gif" />
+                     </image>
+                  </ImageView>
+                  <GridPane alignment="TOP_CENTER" prefHeight="30.0" prefWidth="417.0" GridPane.columnIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="118.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0" prefWidth="108.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.66668701171875" minWidth="10.0" prefWidth="65.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.0" minWidth="10.0" prefWidth="81.66668701171875" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="114.0" text="Mon compte" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="105.0" text="Mon panier" GridPane.columnIndex="1" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="140.0" text="FAQ" GridPane.columnIndex="2" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="137.0" text="Nous" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+                  <GridPane GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.5" minWidth="10.0" prefWidth="292.5" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="191.5" minWidth="10.0" prefWidth="95.5" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="282.0" promptText="Search" GridPane.rowSpan="2">
+                           <font>
+                              <Font name="Arial" size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" text="Search" GridPane.columnIndex="1" GridPane.rowSpan="2">
+                           <font>
+                              <Font name="Arial" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+         </top>
+         <bottom>
+            <FlowPane prefHeight="39.0" prefWidth="996.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" prefHeight="27.0" prefWidth="999.0" text="\@Copyright 2021" textAlignment="CENTER" />
+               </children>
+            </FlowPane>
+         </bottom>
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.0" minWidth="0.0" prefWidth="0.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1028.0" minWidth="10.0" prefWidth="1028.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="0.0" prefWidth="0.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="105.0" minHeight="0.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="224.0" minHeight="10.0" prefHeight="209.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="125.0" minHeight="10.0" prefHeight="125.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <MenuBar prefHeight="39.0" prefWidth="567.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Accueil" />
+                      <Menu mnemonicParsing="false" text="Transports / Véhicules">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Cyclomoteur" />
+                              <MenuItem mnemonicParsing="false" text="Flytech" />
+                              <MenuItem mnemonicParsing="false" text="Machine agricole automotrice" />
+                              <MenuItem mnemonicParsing="false" text="Motocyclette" />
+                              <MenuItem mnemonicParsing="false" text="Quadricycle à moteur" />
+                              <MenuItem mnemonicParsing="false" text="Tricycle à moteur" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Alimentation Electrique">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Alimentation Fixes" />
+                              <MenuItem mnemonicParsing="false" text="Alimentation Industrielle" />
+                              <MenuItem mnemonicParsing="false" text="Convertisseur AC-DC" />
+                              <MenuItem mnemonicParsing="false" text="Converstisseur DC - DC" />
+                              <MenuItem mnemonicParsing="false" text="Energie Solaire" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="Loisirs">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Bricolage, Jardin &amp; Animalerie" />
+                              <MenuItem mnemonicParsing="false" text="High-Tech" />
+                              <MenuItem mnemonicParsing="false" text="Jeux vidéo et Consoles" />
+                              <MenuItem mnemonicParsing="false" text="Jouets" />
+                            <MenuItem mnemonicParsing="false" text="Livres" />
+                              <MenuItem mnemonicParsing="false" text="Musique, DVD et Blu-ray" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Accessoires informatiques">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Accessoires audio et vidéo" />
+                              <MenuItem mnemonicParsing="false" text="Adaptateurs" />
+                              <MenuItem mnemonicParsing="false" text="Boîtiers" />
+                            <MenuItem mnemonicParsing="false" text="Câble et accessoires" />
+                          </items>
+                        </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

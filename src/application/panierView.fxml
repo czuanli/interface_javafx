@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.panierController">
+   <children>
+      <AnchorPane prefHeight="579.0" prefWidth="996.0" />
+      <BorderPane prefHeight="623.0" prefWidth="1094.0">
+         <top>
+            <GridPane alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="353.6666564941406" minWidth="10.0" prefWidth="124.66667175292969" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="757.0" minWidth="10.0" prefWidth="518.3333740234375" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="557.3333129882812" minWidth="10.0" prefWidth="356.6666259765625" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="42.44444274902344" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="A R N G R E N" textAlignment="CENTER" wrappingWidth="294.19403076171875" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="43.0" />
+                     </font>
+                  </Text>
+                  <GridPane alignment="TOP_CENTER" prefHeight="30.0" prefWidth="417.0" GridPane.columnIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="118.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0" prefWidth="108.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.66668701171875" minWidth="10.0" prefWidth="65.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.0" minWidth="10.0" prefWidth="81.66668701171875" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="114.0" text="Mon compte" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="105.0" text="Mon panier" GridPane.columnIndex="1" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="140.0" text="FAQ" GridPane.columnIndex="2" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="137.0" text="Nous" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+                  <GridPane GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.5" minWidth="10.0" prefWidth="292.5" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="191.5" minWidth="10.0" prefWidth="95.5" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="282.0" promptText="Search" GridPane.rowSpan="2">
+                           <font>
+                              <Font name="Arial" size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" text="Search" GridPane.columnIndex="1" GridPane.rowSpan="2">
+                           <font>
+                              <Font name="Arial" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </GridPane>
+                  <ImageView GridPane.halignment="CENTER" GridPane.rowSpan="5" GridPane.valignment="CENTER">
+                     <image>
+                        <Image url="@../../img/Cutout_2.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </top>
+         <bottom>
+            <FlowPane prefHeight="39.0" prefWidth="996.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" prefHeight="27.0" prefWidth="1094.0" text="\@Copyright 2021" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font></Label>
+               </children>
+            </FlowPane>
+         </bottom>
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.0" minWidth="0.0" prefWidth="0.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1028.0" minWidth="10.0" prefWidth="1028.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="0.0" prefWidth="0.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="105.0" minHeight="0.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="224.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="328.0" minHeight="0.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="371.0" minHeight="9.0" prefHeight="12.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="378.0" minHeight="10.0" prefHeight="290.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="324.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="324.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <MenuBar prefHeight="39.0" prefWidth="567.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Accueil" />
+                      <Menu mnemonicParsing="false" text="Transports / Véhicules">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Cyclomoteur" />
+                              <MenuItem mnemonicParsing="false" text="Flytech" />
+                              <MenuItem mnemonicParsing="false" text="Machine agricole automotrice" />
+                              <MenuItem mnemonicParsing="false" text="Motocyclette" />
+                              <MenuItem mnemonicParsing="false" text="Quadricycle à moteur" />
+                              <MenuItem mnemonicParsing="false" text="Tricycle à moteur" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Alimentation Electrique">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Alimentation Fixes" />
+                              <MenuItem mnemonicParsing="false" text="Alimentation Industrielle" />
+                              <MenuItem mnemonicParsing="false" text="Convertisseur AC-DC" />
+                              <MenuItem mnemonicParsing="false" text="Converstisseur DC - DC" />
+                              <MenuItem mnemonicParsing="false" text="Energie Solaire" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="Loisirs">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Bricolage, Jardin &amp; Animalerie" />
+                              <MenuItem mnemonicParsing="false" text="High-Tech" />
+                              <MenuItem mnemonicParsing="false" text="Jeux vidéo et Consoles" />
+                              <MenuItem mnemonicParsing="false" text="Jouets" />
+                            <MenuItem mnemonicParsing="false" text="Livres" />
+                              <MenuItem mnemonicParsing="false" text="Musique, DVD et Blu-ray" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Accessoires informatiques">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Accessoires audio et vidéo" />
+                              <MenuItem mnemonicParsing="false" text="Adaptateurs" />
+                              <MenuItem mnemonicParsing="false" text="Boîtiers" />
+                            <MenuItem mnemonicParsing="false" text="Câble et accessoires" />
+                          </items>
+                        </Menu>
+                    </menus>
+                  </MenuBar>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Votre panier" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="add" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addArticle" prefHeight="23.0" prefWidth="416.0" text="Ajouter jusqu'à 3 exemplaires d'un article et bénéficier de 15% de réduction" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Button>
+                  <GridPane GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="214.0" minWidth="10.0" prefWidth="206.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="319.0" minWidth="10.0" prefWidth="200.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.0" minWidth="10.0" prefWidth="133.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="327.0" minWidth="10.0" prefWidth="133.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="426.0" minWidth="10.0" prefWidth="122.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="379.0" minWidth="10.0" prefWidth="121.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="398.0" minWidth="10.0" prefWidth="111.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="89.0" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="190.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="220.0" minHeight="9.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="220.0" minHeight="10.0" prefHeight="169.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Article" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Descriptif" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Quantité" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <GridPane GridPane.columnSpan="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sous total :            " wrappingWidth="90.369140625" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                 <font>
+                                    <Font name="Arial" size="10.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="lbl_sous_total" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Arial" size="10.0" />
+                                 </font>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Réduction apliquée :" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                                 <font>
+                                    <Font name="Arial" size="10.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total à payer" wrappingWidth="92.3642578125" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                 <font>
+                                    <Font name="Arial" size="10.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="lbl_total_commande" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="reduction" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Arial" size="10.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </GridPane>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Prix unitaire" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="84.0" fitWidth="109.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <image>
+                              <Image url="@../../img/hoverpod.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hoverpod" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="lbl_price" strokeType="OUTSIDE" strokeWidth="0.0" text="1999.98" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="supp" mnemonicParsing="false" onAction="#deleteArticle" text="Supprimer" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="lbl_total" alignment="CENTER" text="1999.98" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <GridPane GridPane.columnIndex="2" GridPane.rowIndex="2">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TextField fx:id="quantity_text" alignment="CENTER" promptText="1" text="0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </GridPane>
+                        <Line endX="100.0" startX="-900.0" GridPane.columnSpan="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                        <Line endX="100.0" layoutX="925.0" layoutY="123.0" startX="-900.0" GridPane.columnSpan="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                        <Button fx:id="add1" layoutX="958.0" layoutY="70.0" mnemonicParsing="false" onAction="addArticle" text="Ajouter" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </GridPane>
+                  <Button fx:id="passerLaCom" mnemonicParsing="false" onAction="#handlePopup" text="Passer la commande" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
