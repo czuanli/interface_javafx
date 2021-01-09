@@ -1,0 +1,7 @@
+.label .text { 
+    -fx-strikethrough: true; 
+}
+
+.Gridpane.first-row {
+    -fx-background-insets: 1 1 1 0 ;
+}

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="579.0" prefWidth="996.0" />
+      <BorderPane prefHeight="623.0" prefWidth="1094.0">
+         <top>
+            <GridPane alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="353.6666564941406" minWidth="10.0" prefWidth="124.66667175292969" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="757.0" minWidth="10.0" prefWidth="518.3333740234375" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="557.3333129882812" minWidth="10.0" prefWidth="356.6666259765625" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="42.44444274902344" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="A R N G R E N" textAlignment="CENTER" wrappingWidth="315.19403076171875" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="43.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="62.0" fitWidth="65.0" nodeOrientation="INHERIT" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <image>
+                        <Image url="@../../../../../Desktop/mami.gif" />
+                     </image>
+                  </ImageView>
+                  <GridPane alignment="TOP_CENTER" prefHeight="30.0" prefWidth="417.0" GridPane.columnIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="118.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0" prefWidth="108.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.66668701171875" minWidth="10.0" prefWidth="65.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.0" minWidth="10.0" prefWidth="81.66668701171875" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="114.0" text="Mon compte" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="105.0" text="Mon panier" GridPane.columnIndex="1" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="140.0" text="FAQ" GridPane.columnIndex="2" GridPane.rowSpan="3" />
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="137.0" text="Nous" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+                  <GridPane prefHeight="24.0" prefWidth="358.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.5" minWidth="10.0" prefWidth="277.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="191.5" minWidth="10.0" prefWidth="111.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints />
+                      <RowConstraints />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="263.0" promptText="Search" GridPane.rowIndex="2" GridPane.rowSpan="2" />
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" text="Search" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="2">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets right="35.0" />
+                           </GridPane.margin>
+                        </Button>
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+         </top>
+         <bottom>
+            <FlowPane prefHeight="39.0" prefWidth="996.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" prefHeight="27.0" prefWidth="999.0" text="\@Copyright 2021" textAlignment="CENTER" />
+               </children>
+            </FlowPane>
+         </bottom>
+         <center>
+            <GridPane prefHeight="447.0" prefWidth="1047.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.0" minWidth="0.0" prefWidth="0.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1028.0" minWidth="10.0" prefWidth="1028.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="0.0" prefWidth="0.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="105.0" minHeight="0.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="346.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="363.0" minHeight="0.0" prefHeight="360.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="51.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                 <MenuBar prefHeight="39.0" prefWidth="567.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Accueil" />
+                      <Menu mnemonicParsing="false" text="Transports / Véhicules">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Cyclomoteur" />
+                              <MenuItem mnemonicParsing="false" text="Flytech" />
+                              <MenuItem mnemonicParsing="false" text="Machine agricole automotrice" />
+                              <MenuItem mnemonicParsing="false" text="Motocyclette" />
+                              <MenuItem mnemonicParsing="false" text="Quadricycle à moteur" />
+                              <MenuItem mnemonicParsing="false" text="Tricycle à moteur" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Alimentation Electrique">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Alimentation Fixes" />
+                              <MenuItem mnemonicParsing="false" text="Alimentation Industrielle" />
+                              <MenuItem mnemonicParsing="false" text="Convertisseur AC-DC" />
+                              <MenuItem mnemonicParsing="false" text="Converstisseur DC - DC" />
+                              <MenuItem mnemonicParsing="false" text="Energie Solaire" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="Loisirs">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Bricolage, Jardin &amp; Animalerie" />
+                              <MenuItem mnemonicParsing="false" text="High-Tech" />
+                              <MenuItem mnemonicParsing="false" text="Jeux vidéo et Consoles" />
+                              <MenuItem mnemonicParsing="false" text="Jouets" />
+                            <MenuItem mnemonicParsing="false" text="Livres" />
+                              <MenuItem mnemonicParsing="false" text="Musique, DVD et Blu-ray" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Accessoires informatiques">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Accessoires audio et vidéo" />
+                              <MenuItem mnemonicParsing="false" text="Adaptateurs" />
+                              <MenuItem mnemonicParsing="false" text="Boîtiers" />
+                            <MenuItem mnemonicParsing="false" text="Câble et accessoires" />
+                          </items>
+                        </Menu>
+                    </menus>
+                  </MenuBar>
+                  <HBox prefHeight="21.0" prefWidth="1028.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Hyperlink prefHeight="20.0" prefWidth="33.0" text="Back" />
+                        <Label prefHeight="24.0" prefWidth="22.0" text="&lt;&lt;" />
+                        <Hyperlink prefHeight="23.0" prefWidth="135.0" text="   Transports/Véhicules" />
+                        <Label prefHeight="24.0" prefWidth="14.0" text="&gt;" />
+                        <Hyperlink prefHeight="20.0" prefWidth="54.0" text="Flytech" />
+                     </children>
+                  </HBox>
+                  <GridPane prefHeight="394.0" prefWidth="1018.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="331.0" minWidth="10.0" prefWidth="321.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="252.0" minWidth="0.0" prefWidth="26.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="566.0" minWidth="10.0" prefWidth="327.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="566.0" minWidth="0.0" prefWidth="0.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="361.0" minWidth="10.0" prefWidth="320.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="36.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="227.0" minHeight="10.0" prefHeight="197.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="111.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <VBox prefHeight="234.0" prefWidth="320.0" style="-fx-border-insets: 0 1 1 1; -fx-border-color: black; -fx-border-width: 3 3 0 3; -fx-border-radius: 3;-fx-border-style: segments(40, 4, 20, 4) phase 12 line-cap butt; -fx-border-color: gray">
+                           <children>
+                              <Label text="Offre spéciale !" textFill="#b50000">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="20.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" left="10.0" top="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="160.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/Hoverpod_tiled-359x273.jpg" />
+                           </image>
+                           <GridPane.margin>
+                              <Insets bottom="30.0" left="50.0" right="50.0" top="30.0" />
+                           </GridPane.margin>
+                        </ImageView>
+                        <ImageView fitHeight="160.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+                           <GridPane.margin>
+                              <Insets bottom="30.0" left="50.0" right="50.0" top="30.0" />
+                           </GridPane.margin>
+                           <image>
+                              <Image url="@../../../../../Desktop/sky.54d4_12.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView cache="true" fitHeight="160.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+                           <image>
+                              <Image url="@../../../../../Desktop/hoberbike.png" />
+                           </image>
+                           <GridPane.margin>
+                              <Insets bottom="30.0" left="70.0" right="50.0" top="30.0" />
+                           </GridPane.margin>
+                        </ImageView>
+                        <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-border-insets: 0 1 1 1; -fx-border-color: black; -fx-border-width: 0 3 3 3; -fx-border-radius: 3;-fx-border-style: segments(40, 4, 20, 4) phase 12 line-cap butt; -fx-border-color: gray" GridPane.rowIndex="1">
+                           <children>
+                              <Label prefHeight="27.0" prefWidth="98.0" text="Hoverpode">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets left="50.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label />
+                              <HBox prefHeight="29.0" prefWidth="194.0">
+                                 <children>
+                                    <ImageView fitHeight="28.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="21.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                                 <padding>
+                                    <Insets left="50.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox prefHeight="22.0" prefWidth="320.0">
+                                 <children>
+                                    <Label prefHeight="29.0" prefWidth="69.0" stylesheets="@application.css" text="3000, 00 €">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="33.0" prefWidth="72.0" text="1999,98 €" textFill="#0018b2">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="22.0" prefWidth="127.0" text="(35% de réduction)" textFill="#b50000">
+                                       <font>
+                                          <Font name="System Italic" size="9.0" />
+                                       </font></Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets left="50.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <Label prefHeight="15.0" prefWidth="55.0" text="Bleu / Noir">
+                                 <VBox.margin>
+                                    <Insets left="50.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <children>
+                              <Label prefHeight="23.0" prefWidth="194.0" text="Moller M400 Skycar">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets left="50.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label />
+                              <HBox prefHeight="29.0" prefWidth="194.0">
+                                 <children>
+                                    <ImageView fitHeight="28.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                                 <padding>
+                                    <Insets left="50.0" />
+                                 </padding>
+                              </HBox>
+                              <Label prefHeight="12.0" prefWidth="70.0" text="4999,98 €">
+                                 <VBox.margin>
+                                    <Insets left="50.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="15.0" prefWidth="79.0" text="Blanc / Rouge">
+                                 <VBox.margin>
+                                    <Insets left="50.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                           <children>
+                              <Label prefHeight="27.0" prefWidth="98.0" text="HoverBike">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets left="70.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label />
+                              <HBox prefHeight="29.0" prefWidth="194.0">
+                                 <children>
+                                    <ImageView fitHeight="28.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                       <HBox.margin>
+                                          <Insets left="18.0" />
+                                       </HBox.margin>
+                                    </ImageView>
+                                    <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="21.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../Downloads/pngkite-77718.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                                 <padding>
+                                    <Insets left="50.0" />
+                                 </padding>
+                              </HBox>
+                              <Label text="999,98 €">
+                                 <VBox.margin>
+                                    <Insets left="70.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="15.0" prefWidth="55.0" text="Blanc">
+                                 <VBox.margin>
+                                    <Insets left="70.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <Separator orientation="VERTICAL" prefHeight="236.0" prefWidth="24.0" GridPane.columnIndex="1" GridPane.rowSpan="2" />
+                        <Separator orientation="VERTICAL" prefHeight="293.0" prefWidth="0.0" GridPane.columnIndex="4" GridPane.rowSpan="2" />
+                     </children>
+                  </GridPane>
+                  <ScrollBar orientation="VERTICAL" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.rowSpan="3" />
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</AnchorPane>
