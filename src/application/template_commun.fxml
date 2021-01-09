@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="579.0" prefWidth="996.0" />
       <BorderPane prefHeight="623.0" prefWidth="1094.0">
@@ -34,7 +33,7 @@
                   </Text>
                   <ImageView fitHeight="62.0" fitWidth="65.0" nodeOrientation="INHERIT" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                      <image>
-                        <Image url="@../../../../../../../../Cutout_2.gif" />
+                        <Image url="@../../img/Cutout_2.gif" />
                      </image>
                   </ImageView>
                   <GridPane alignment="TOP_CENTER" prefHeight="30.0" prefWidth="417.0" GridPane.columnIndex="2">

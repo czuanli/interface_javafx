@@ -294,14 +294,14 @@
                         </GridPane>
                         <Line endX="100.0" startX="-900.0" GridPane.columnSpan="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
                         <Line endX="100.0" layoutX="925.0" layoutY="123.0" startX="-900.0" GridPane.columnSpan="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
-                        <Button fx:id="add1" layoutX="958.0" layoutY="70.0" mnemonicParsing="false" onAction="addArticle" text="Ajouter" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                        <Button fx:id="add1" layoutX="958.0" layoutY="70.0" mnemonicParsing="false" onAction="#addArticle" text="Ajouter" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                            <font>
                               <Font name="Arial" size="10.0" />
                            </font>
                         </Button>
                      </children>
                   </GridPane>
-                  <Button fx:id="passerLaCom" mnemonicParsing="false" onAction="#handlePopup" text="Passer la commande" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                  <Button fx:id="passerLaCom" mnemonicParsing="false" onAction="#pressButton" text="Passer la commande" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                      <font>
                         <Font size="10.0" />
                      </font>
